@@ -424,6 +424,9 @@
 
 /*End Section of My Experiance**/
 
+
+/*Start Section of Contact With Me**/
+
 #Contact {
     text-align: center;
     background: linear-gradient(to right, rgba(31, 41, 92, 0.9), rgba(127, 32, 66, 0.95))
@@ -432,9 +435,6 @@
 #Contact p {
     color: #fff;
 }
-
-
-/*Start Section of Contact With Me**/
 
 
 /*End Section of Contact With Me**/

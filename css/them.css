@@ -188,7 +188,7 @@
         right: 0;
         left: 0;
         text-align: center;
-        top: 15%;
+        top: 9%;
     }
     .home span {
         letter-spacing: 3px;
@@ -294,6 +294,7 @@
 }
 
 .content-flex {
+    padding: 30px 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -306,7 +307,7 @@
     background-color: #fff;
     /* margin-top: 40px; */
     padding-bottom: 20px;
-    width: 250px;
+    width: 302px;
     transition: all ease-in-out 0.5s;
 }
 
@@ -364,6 +365,7 @@
 
 #Experience .content-box {
     display: flex;
+    padding: 30px 0;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;

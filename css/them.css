@@ -296,7 +296,7 @@
 .content-flex {
     padding: 30px 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -508,12 +508,24 @@ a {
 
 /*Padding Of All Section**/
 
-.about,
-.work,
-#Experience,
-#Contact {
-    padding: 50px 0;
-    padding-left: 70px;
+@media (min-width:768px) {
+    .about,
+    .work,
+    #Experience,
+    #Contact {
+        padding: 50px 0;
+        padding-left: 70px;
+    }
+}
+
+@media (max-width:767px) {
+    .about,
+    .work,
+    #Experience,
+    #Contact {
+        text-align: center;
+        padding: 50px 0;
+    }
 }
 
 .button {

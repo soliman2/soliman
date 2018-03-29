@@ -41,7 +41,7 @@
     color: #7f2042;
 }
 
-.sidpar .social {
+.social {
     margin-top: 40px;
 }
 
@@ -470,6 +470,9 @@
 
 /*End Section of My Experiance**/
 
+
+/*Start Section of Contact With Me**/
+
 #Contact {
     text-align: center;
     background: linear-gradient(to right, rgba(31, 41, 92, 0.9), rgba(127, 32, 66, 0.95))
@@ -479,8 +482,25 @@
     color: #fff;
 }
 
+#Contact .social {
+    padding-bottom: 50px;
+}
 
-/*Start Section of Contact With Me**/
+#Contact .social li {
+    padding: 0 10px;
+}
+
+#Contact .social li a {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    line-height: 40px;
+}
+
+#Contact .social li a:hover {
+    color: #822c4d;
+}
 
 
 /*End Section of Contact With Me**/
